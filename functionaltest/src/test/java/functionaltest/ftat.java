@@ -87,7 +87,7 @@ public class ftat {
 	@Test(priority = 3)
 	public void pageredirection() {
 		driver.findElement(By.partialLinkText("Home")).click();
-		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(6, TimeUnit.SECONDS);
 		driver.findElement(By.xpath("//h2[text()='WELCOME TO YOUR ACCOUNT OVERVIEW']")).isDisplayed();
 		driver.get(URL1);
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
