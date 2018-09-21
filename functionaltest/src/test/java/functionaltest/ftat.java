@@ -28,7 +28,7 @@ public class ftat {
 		//driver= new FirefoxDriver();
 		wait = new WebDriverWait(driver, 10);
 		driver.get(URL);
-		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(6, TimeUnit.SECONDS);
 		// Login Page content check
 		//driver.findElement(By.xpath("//h1[text()='JUPITER COMMUNICATION']")).isDisplayed();
 		driver.findElement(By.name("username")).isDisplayed();
